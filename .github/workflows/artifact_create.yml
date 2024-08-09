@@ -23,7 +23,7 @@ jobs:
       run: npm install
 
     - name: Run JavaScript script
-      run: node index.js
+      run: node ./Sample.js
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
